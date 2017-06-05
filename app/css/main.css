@@ -1,0 +1,85 @@
+.horizon {
+  padding-bottom: 2em;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  clear: both;
+  margin-bottom: 15%;
+}
+
+.intro .text-box {
+  width: 80%;
+  background-color: #212121;
+  color: white;
+  padding: 8rem;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+}
+
+.portafolio {
+  text-align: center;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo h3 {
+  text-align: left;
+}
+
+.titulo h3 span {
+  color: blue;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70%;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.icon__tecnologia {
+  background-image: url(../images/iconos/tecnology.png);
+}
+
+.icon__multiplataforma {
+  background-image: url(../images/iconos/devices.png);
+}
+
+.icon__dcu {
+  background-image: url(../images/iconos/people.png);
+}
+
+.icon__creativo {
+  background-image: url(../images/iconos/creative.png);
+}
+
+.sm-hr {
+  background: #DDD;
+  margin: 43px 0;
+  height: 1px;
+}

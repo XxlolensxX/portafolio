@@ -1,0 +1,60 @@
+.cards .hover-img {
+  float: left;
+  position: relative;
+}
+.cards .hover-img .caption {
+  background:  rgba(0, 0, 0, 0.9);
+  padding: 15px 20px;
+  position: absolute;
+  height: 250px;
+  bottom: 0;
+  transform-origin: bottom center;
+  opacity: 0;
+  transform: scale(1,-1) skew(-10deg);
+  transition: all 0.3s ease-in-out;
+}
+.cards .hover-img .caption p {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: white;
+}
+.cards .hover-img .caption a {
+  display: block;
+  font-family: 'Arial';
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  color: #000;
+  background: #FFD789;
+  transition: all 0.5s ease;
+}
+.cards .hover-img .caption a:hover {
+  color: white;
+
+}
+.cards .hover-img .img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.cards .hover-img img {
+  transition: all 0.3s ease;
+}
+
+.cards .hover-img:hover .caption {
+  opacity: 1;
+  transform: scale(1,1) skew(0);
+}
+
+.cards .caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
